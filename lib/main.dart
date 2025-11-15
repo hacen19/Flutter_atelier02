@@ -45,6 +45,15 @@ class MonApp extends StatelessWidget {
                   const Icon(Icons.star, size: 80, color: Colors.yellow),
                 ],
               ),
+              const SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: const [
+                  Icon(Icons.home, color: Colors.blue, size: 40),
+                  Icon(Icons.favorite, color: Colors.red, size: 40),
+                  Icon(Icons.settings, color: Colors.grey, size: 40),
+                ],
+              ),
             ],
           ),
         ),
