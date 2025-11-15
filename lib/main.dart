@@ -15,7 +15,17 @@ class MonApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text(titre), backgroundColor: Colors.blue),
         body: Center(
-          child: Text("Hello World !!", style: TextStyle(fontSize: 22)),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text("Bienvenue!"),
+              const Text("Créé par Hacen"),
+              const Text(
+                "Atelier Flutter 02",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
         ),
       ),
     );
