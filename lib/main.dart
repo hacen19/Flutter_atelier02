@@ -24,6 +24,19 @@ class MonApp extends StatelessWidget {
                 "Atelier Flutter 02",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
+              const SizedBox(height: 20),
+              Container(
+                padding: const EdgeInsets.all(12),
+                margin: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Text(
+                  "Container stylisé",
+                  style: TextStyle(color: Colors.white, fontSize: 16),
+                ),
+              ),
             ],
           ),
         ),
