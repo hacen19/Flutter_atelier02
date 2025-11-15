@@ -37,6 +37,14 @@ class MonApp extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
+              const SizedBox(height: 20),
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(width: 150, height: 150, color: Colors.lightBlue),
+                  const Icon(Icons.star, size: 80, color: Colors.yellow),
+                ],
+              ),
             ],
           ),
         ),
